@@ -94,7 +94,7 @@ class ProjectManager(QWidget):
 
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Менеджер проектов")
+        self.setWindowTitle("ProjectX")
         self.setGeometry(100, 100, 800, 600)
 
         self.create_database()
